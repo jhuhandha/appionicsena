@@ -1,0 +1,23 @@
+<ion-content scroll="false">
+
+  <ion-grid>
+    <ion-row>
+      <ion-item>
+        <ion-label floating>Usuario</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+    </ion-row>
+    <ion-row>
+      <ion-item>
+        <ion-label floating>Clave</ion-label>
+        <ion-input type="password" value=""></ion-input>
+      </ion-item>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <button ion-button block>Ingresar </button>
+        <button ion-button block color="danger" (click)="login_google()">Google</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
